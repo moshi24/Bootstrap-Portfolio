@@ -1,0 +1,50 @@
+body {
+    background-image: url("../Bootstrap-Portfolio/images/ep_naturalwhite.png");
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+/* Header */
+.navbar-brand {
+    background-color:#4aaaa5;
+    width: 15%;
+    height: 60px;
+    padding-top: 10px;
+    text-align: center;
+    font: bolder;
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position:absolute; 
+    margin: 0%;
+    right: 66.5%;
+    top: 0%; 
+}
+
+.navbar-nav {
+    position:relative; 
+    left: 60%;     
+}
+
+/* Main */
+h2 {
+    color: #4aaaa5;
+    padding: 5px;
+    border-bottom: 4px solid #cccccc;
+} 
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    margin-top:10px;
+}
+
+
+
+/* Footer */
+.container-footer {
+    background-color: #4aaaa5;
+    text-align: center;
+    width:100%;
+    border-top: 4px solid #666666;
+    padding: 20px;
+}
