@@ -1,3 +1,6 @@
+* {box-sizing: border-box} 
+
+
 body {
     background-image: url("../Bootstrap-Portfolio/images/ep_naturalwhite.png");
     padding: 0;
@@ -5,40 +8,72 @@ body {
     border: none;
 }
 /* Header */
-.navbar-brand {
-    background-color:#4aaaa5;
-    width: 15%;
-    height: 60px;
-    padding-top: 10px;
-    text-align: center;
-    font: bolder;
-    color: #fff;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    position:absolute; 
-    margin: 0%;
-    right: 72%;
-    top: 0%; 
-}
+.header {
+    overflow: hidden;
+    background-color: #fff;  
+  }
 
-.navbar-nav {
-    position:relative; 
-    left: 60%;     
-}
+  
+  .header a {
+    float: left;
+    color: #666666;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  
+  .header-right {
+    float: right;
+    display: inline-block;
+  }
 
 /* Main */
-h2 {
+h3 {
     color: #4aaaa5;
     padding: 5px;
     border-bottom: 4px solid #cccccc;
+    font: 10px;
 } 
 
 .container {
     background-color: #fff;
+    padding: 20px;
+    
 }
+
+#main {
+    width: 60%;
+    height: 60%;
+}
+
+#imgDog {
+    padding: 20px;
+    height: auto;
+}
+
 
 .card {
     position: relative;
 }
+
 
 .caption {
     position: absolute;
@@ -54,10 +89,30 @@ h2 {
 
 /* Footer */
 .container-footer {
+
     background-color: #4aaaa5;
     width:100%;
     height: 10%;
     border-top: 6px solid #666666;
     padding: 20px;
     text-align: center;
+    position: relative;
+    bottom: 0%;  
 }
+
+
+  
+  @media screen and (max-width: 640px) {
+    .header a {
+      float: none;
+      display: inline-block;
+      text-align: center;
+      width: 100%;
+
+    }
+    .header-right {
+      float: none;
+
+    }
+  }
+

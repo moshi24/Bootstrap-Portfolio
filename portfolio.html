@@ -13,45 +13,36 @@
 
 <body>
   <!-- navbar with responsiveness -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
-    <a class="navbar-brand" href="#">Kawah Wong</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <nav class="header mb-5">
+      <a href="#default" class="logo">Kawah Wong</a>
+      <div class="header-right">
+        <a class="active" href="index.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="portfolio.html">Portfolio</a>
+      </div>
+   </nav>
   <!-- main gallery with responsiveness -->
   <div class="container mb-5">
-     <h2>Portfolio</h2>
+     <h3>Portfolio</h3>
     <div class="container gallery-container">   
         <div class="tz-gallery">
           <!-- First row with two images -->
             <div class="row mb-3">
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="../Bootstrap-Portfolio/images/people.jpg" alt="Park" class="card-img-top">
+                        <img class="Gallery"  src="../Bootstrap-Portfolio/images/people.jpg" alt="Park" class="card-img-top">
                         <div class="caption">
-                          <p>Mi gente</p>
+                          <p>Fashion</p>
                         </div>
                     </div>
                 </div>
                  <!-- second img -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="../Bootstrap-Portfolio/images/bar.jpg" alt="Park" class="card-img-top">
+                        <img class="Gallery" src="../Bootstrap-Portfolio/images/bar.jpg" alt="Park" class="card-img-top">
+                        <div class="caption">
+                            <p>Culture</p>
+                          </div>
                     </div>
                 </div>
             </div>
@@ -60,13 +51,19 @@
               <div class="row mb-3"> 
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="../Bootstrap-Portfolio/images/bowl.jpg" alt="Park" class="card-img-top">
+                        <img class="Gallery" src="../Bootstrap-Portfolio/images/bowl.jpg" alt="Park" class="card-img-top">
+                        <div class="caption">
+                            <p>Bowl</p>
+                          </div>
                     </div>
                 </div>
                  <!-- second img from second row -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="../Bootstrap-Portfolio/images/food.jpg" alt="Park" class="card-img-top">
+                        <img class="Gallery"  src="../Bootstrap-Portfolio/images/food.jpg" alt="Park" class="card-img-top">
+                        <div class="caption">
+                            <p>Good food</p>
+                          </div>
                     </div>
                 </div>
             </div>
@@ -74,8 +71,11 @@
             <div class="row">
               <div class="col-md-4">
                     <div class="card">
-                      <img src="../Bootstrap-Portfolio/images/download.jpg" alt="Park"
+                      <img src="../Bootstrap-Portfolio/images/food.jpg" alt="Park"
                       class="card-img-top">
+                      <div class="caption">
+                          <p>Doggie</p>
+                        </div>
                     </div>
                 </div>
             </div> 
